@@ -15,7 +15,7 @@ def parse_args():
     parser.error = parser_error
     parser._optionals.title = "OPTIONS"
     parser.add_argument('-d', '--domain', help='Specify Target Domain to get subdomains from crt.sh', required=False)
-    # A anew Argunment was added "-f --file"
+    # A new argument was added "-f --file"
     parser.add_argument('-f', '--file', help='Specify Target list of domains to get subdomains from crt.sh', required=False)
     parser.add_argument('-r', '--recursive', help='Do recursive search for subdomains', action='store_true', required=False)
     parser.add_argument('-w', '--wildcard', help='Include wildcard in output', action='store_true', required=False)
@@ -43,7 +43,7 @@ def crtsh(domain):
 
 if __name__ == "__main__":
     args = parse_args()
-    #The next line was added in order to read a list of domains given by the user.
+    #The next 3 lines were added in order to read a list of domains given by the user.
     if args.file:
         for domain in open(args.file, 'r').readlines():
             crtsh(domain.strip())
