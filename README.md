@@ -7,7 +7,7 @@ Thank You YashGoti
 
 
 # JarvisSubdomains.py
-A Python utility to fetch or would say scrap subdomains from https://crt.sh
+A Python utility to fetch subdomains by making requests on https://crt.sh
 
 ### Requirements
 ```
@@ -20,7 +20,7 @@ json
 ```
 git clone https://github.com/daviosardinha/JarvisSubdomains.git
 cd JarvisSubdomains.py
-python3 crtsh.py -h
+python3 JarvisSubdomains.py -h
 ```
 * if you want to use crtsh from anywhere try below installation guide
 ```
@@ -36,7 +36,7 @@ cp JarvisSubdomains /usr/bin/
 |-|-|-|
 |-h|--help|show this help message and exit|
 |-d DOMAIN|--domain DOMAIN|Specify Target Domain to get subdomains from crt.sh|
-|-f --file| Specify Target list of domains to get subdomains from crt.sh
+|-f --file| Specify Target list to get subdomains from crt.sh
 |-r|--recursive|Do recursive search for subdomains|
 |-w|--wildcard|Include wildcard in output|
 
