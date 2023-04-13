@@ -26,7 +26,7 @@ python3 crtsh.py -h
 ```
 git clone https://github.com/daviosardinha/JarvisSubdomains.git
 cd JarvisSubdomains.py
-mv crtsh.py JarvisSubdomains
+mv JarvisSubdomains.py JarvisSubdomains
 chmod +x JarvisSubdomains
 cp JarvisSubdomains /usr/bin/
 ```
