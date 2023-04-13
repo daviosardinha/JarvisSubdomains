@@ -36,7 +36,7 @@ cp JarvisSubdomains /usr/bin/
 |-|-|-|
 |-h|--help|show this help message and exit|
 |-d DOMAIN|--domain DOMAIN|Specify Target Domain to get subdomains from crt.sh|
-|-f --file| Specify Target list to get subdomains from crt.sh
+|-f|--file| Specify Target list to get subdomains from crt.sh|
 |-r|--recursive|Do recursive search for subdomains|
 |-w|--wildcard|Include wildcard in output|
 
