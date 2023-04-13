@@ -1,3 +1,11 @@
+This Was a tool built intially by https://github.com/YashGoti/crtsh, credits to this guy.
+I decided to continue to update what he started few years ago.
+
+Thank You YashGoti
+
+
+
+
 # JarvisSubdomains.py
 A Python utility to fetch or would say scrap subdomains from https://crt.sh
 
